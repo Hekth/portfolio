@@ -1,0 +1,26 @@
+.containerBase section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBase p, ul li {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.containerBase h2 {
+    font-family: var(--krona);
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.containerBase h2 strong {
+    color: var(--cor-terciaria);
+}
+
+.containerBase h2, p, ul li {
+    color: var(--cor-secundaria);
+}

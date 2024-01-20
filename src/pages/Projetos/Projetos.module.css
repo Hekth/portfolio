@@ -1,0 +1,56 @@
+.projetosContainer {
+    flex-direction: column;
+}
+
+.projetosContainer img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.swiperContainer {
+    width: 30%;
+    text-align: center;
+    border: 3px solid var(--cor-terciaria);
+    border-radius: 1rem;
+    background-color: #e0c097;
+}
+
+.swiperContainer h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: var(--cor-terciaria);
+}
+
+.projetosContainer h2 {
+    font-size: 2rem;
+    color: var(--cor-terciaria);
+    font-family: var(--krona);
+    margin-bottom: 2rem;
+}
+
+.projetosContainer .repositorio {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.projetosContainer .repositorio:hover {
+    color: rgba(0, 0, 0, 0.527);
+}
+
+.projetosFiltro {
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: var(--cor-secundaria);
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-family: var(--montserrat);
+    color: var(--cor-terciaria);
+    font-weight: 600;
+}

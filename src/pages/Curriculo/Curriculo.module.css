@@ -1,0 +1,21 @@
+.curriculoContainer {
+    flex-direction: column;
+}
+
+.tituloPrincipalCurriculo {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--cor-terciaria);
+}
+
+.curriculoContainer div {
+    width: 50%;
+}
+
+.curriculoContainer h3 {
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+    font-family: var(--krona);
+    margin: 1.5rem 0;
+}
+

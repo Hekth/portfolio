@@ -1,0 +1,8 @@
+@import url("./styles/reset.css");
+@import url("./styles/variaveis.css");
+
+body {
+  font-family: var(--montserrat);
+  background-color: var(--cor-primaria);
+  max-width: 100vw;
+}

@@ -1,0 +1,28 @@
+.sobremimContainer {
+    gap: 5rem;
+}
+
+.sobremimContainer img {
+    width: 300px;
+    box-shadow: 6px 6px 0 var(--cor-terciaria);
+    border: 2px solid var(--cor-terciaria);
+    transition: all 300ms;
+}
+
+.sobremimContainer img:hover {
+    box-shadow: 12px 12px 0 var(--cor-terciaria);
+}
+
+.sobremimTexto {
+    width: 40%;
+}
+
+.sobremimTexto h2 {
+    margin-bottom: 2rem;
+}
+
+.sobremimTexto p a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    line-height: 1.8rem;
+}

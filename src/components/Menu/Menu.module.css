@@ -1,0 +1,21 @@
+.menu {
+    color: var(--cor-secundaria);
+    display: flex;
+    gap: 3rem;
+    font-size: 1.2rem;
+    background-color: var(--cor-primaria);
+    padding: 2rem 4rem;
+    width: 100%;
+}
+
+.menuLink {
+    cursor: pointer;
+}
+
+.menuLink:hover {
+    color: var(--cor-terciaria);
+}
+
+.active {
+    color: var(--cor-terciaria);
+}

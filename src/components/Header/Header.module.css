@@ -1,0 +1,6 @@
+.cabecalho {
+    position: fixed;
+    width: 100vw;
+    box-shadow: 4px 4px 16px #b85c3844;
+    z-index: 9;
+}
