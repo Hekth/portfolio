@@ -11,7 +11,8 @@
 }
 
 .swiperContainer {
-    width: 30%;
+    width: 50%;
+    max-width: 500px;
     text-align: center;
     border: 3px solid var(--cor-terciaria);
     border-radius: 1rem;
@@ -53,4 +54,31 @@
     font-family: var(--montserrat);
     color: var(--cor-terciaria);
     font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+    .swiperContainer {
+        width: 80%;
+    }
+
+    .projetosContainer img {
+        height: 250px;
+    }
+
+    .swiperContainer h3 {
+        font-size: 1.2rem;
+    }
+
+    .projetosContainer h2 {
+        font-size: 1.5rem;
+    }
+
+    .projetosContainer .repositorio {
+        font-size: 1rem;
+    }
+
+    .projetosFiltro {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
 }

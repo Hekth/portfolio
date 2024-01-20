@@ -1,3 +1,6 @@
+.navContainer {
+    background-color: var(--cor-primaria);
+}
 .menu {
     color: var(--cor-secundaria);
     display: flex;
@@ -18,4 +21,54 @@
 
 .active {
     color: var(--cor-terciaria);
+}
+
+.menuBurguer {
+    display: none;
+}
+
+.iconeBurguer {
+    width: 48px;
+    height: 48px;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    display: none;
+}
+
+.menuBurguer:checked ~ .menuMobile {
+    display: flex;
+}
+
+.menuMobile {
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-secundaria);
+    width: 250px;
+    padding: 1rem;
+    color: var(--cor-secundaria);
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 0 var(--cor-secundaria);
+    transition: all 200ms;
+    position: absolute;
+    top: 100%;
+}
+
+.menuMobile:hover {
+    box-shadow: 10px 10px 0 var(--cor-secundaria);
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .iconeBurguer {
+        display: block;
+    }
+
+    .navContainer {
+        padding: 1rem;
+        position: relative;
+    }
 }

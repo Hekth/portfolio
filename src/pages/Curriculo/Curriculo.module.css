@@ -1,5 +1,6 @@
 .curriculoContainer {
     flex-direction: column;
+    margin: 4rem 0;
 }
 
 .tituloPrincipalCurriculo {
@@ -19,3 +20,8 @@
     margin: 1.5rem 0;
 }
 
+@media screen and (max-width: 800px) {
+    .curriculoContainer div {
+        width: 70%;
+    }
+}
