@@ -24,4 +24,18 @@
     .curriculoContainer div {
         width: 70%;
     }
+
+    .curriculoContainer h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .curriculoContainer div {
+        width: 80%;
+    }
+
+    .curriculoContainer h3 {
+        font-size: 1.2rem;
+    }
 }

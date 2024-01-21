@@ -33,9 +33,16 @@
     .sobremimContainer {
         display: flex;
         flex-direction: column-reverse;
+        gap: 3rem;
     }
 
     .sobremimTexto {
         width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sobremimTexto {
+        width: 80%;
     }
 }

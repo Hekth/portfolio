@@ -35,6 +35,10 @@
     display: none;
 }
 
+.menuBurguer:checked ~ label > .iconeBurguer {
+    color: var(--cor-terciaria);
+}
+
 .menuBurguer:checked ~ .menuMobile {
     display: flex;
 }

@@ -82,3 +82,30 @@
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .swiperContainer {
+        width: 80%;
+    }
+
+    .projetosContainer img {
+        height: 200px;
+    }
+
+    .swiperContainer h3 {
+        font-size: 1.1rem;
+    }
+
+    .projetosContainer h2 {
+        font-size: 1.3rem;
+    }
+
+    .projetosContainer .repositorio {
+        font-size: 0.9rem;
+    }
+
+    .projetosFiltro {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+}

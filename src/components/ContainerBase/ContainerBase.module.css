@@ -36,3 +36,15 @@
         line-height: 2rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .containerBase p, ul li {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .containerBase h2 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+}
