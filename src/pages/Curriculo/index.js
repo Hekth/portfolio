@@ -44,6 +44,7 @@ export default function Curriculo() {
                     <li>Grid - básico</li>
                     <li>Sass - básico</li>
                     <li>JavaScript - intermediário</li>
+                    <li>TypeScript - básico</li>
                     <li>ReactJS - intermediário</li>
                     <li>Python - básico</li>
                     <li>Git e Github - intermediário</li>
