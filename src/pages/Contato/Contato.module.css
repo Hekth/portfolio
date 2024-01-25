@@ -25,6 +25,7 @@
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
     padding: 1rem;
+    cursor: default;
 }
 
 @media screen and (max-width: 800px) {

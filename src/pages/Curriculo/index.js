@@ -1,4 +1,5 @@
 import styles from "./Curriculo.module.css";
+import curriculo from "downloads/curriculo.pdf";
 
 export default function Curriculo() {
     return (
@@ -44,11 +45,13 @@ export default function Curriculo() {
                     <li>Grid - básico</li>
                     <li>Sass - básico</li>
                     <li>JavaScript - intermediário</li>
-                    <li>TypeScript - básico</li>
                     <li>ReactJS - intermediário</li>
                     <li>Python - básico</li>
                     <li>Git e Github - intermediário</li>
                 </ul>
+            </div>
+            <div className={styles.curriculoDownloadContainer}>
+                <a href={curriculo} download className={styles.curriculoDownload}> Currículo em PDF </a>
             </div>
         </section>
     );
