@@ -5,6 +5,7 @@ import geradorDeSenha from "imagen-projetos/geradorDeSenha.png";
 import meusAniversarios from "imagen-projetos/meusAniversarios.png";
 import word from "imagen-projetos/word.png";
 import organo from "imagen-projetos/organo.png";
+import rpg from "imagen-projetos/rpg.png";
 
 export const projetos = [
     {
@@ -63,6 +64,14 @@ export const projetos = [
         link: "https://organo-hekth.vercel.app/",
         tag: ["REACT"]
     },
+    {
+        id: 8,
+        urlImagem: rpg, 
+        urlGithub: "https://github.com/Hekth/RPG-Rolagem-de-Dados", 
+        titulo: "RPG - Rolagem de dados",
+        link: "https://rpg-rolagem-de-dados.vercel.app/",
+        tag: ["TYPESCRIPT"]
+    }
 ];
 
-export const tecnologias = ["HTML", "CSS", "JAVASCRIPT", "REACT"];
+export const tecnologias = ["HTML", "CSS", "JAVASCRIPT", "REACT", "TYPESCRIPT"];
